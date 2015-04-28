@@ -1,0 +1,10 @@
+PODS:
+  - ATCCocoapodsDemo (0.2.1)
+
+DEPENDENCIES:
+  - ATCCocoapodsDemo (~> 0.2.1)
+
+SPEC CHECKSUMS:
+  ATCCocoapodsDemo: a16ac5dccd59950b649b683e34723d41a6dd64c3
+
+COCOAPODS: 0.36.4

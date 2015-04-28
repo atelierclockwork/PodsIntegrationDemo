@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+@import ATCCocoapodsDemo;
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *demoLabel;
 
 @end
 
@@ -16,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.demoLabel.text = ExternalDetail.publicDetail;
     // Do any additional setup after loading the view, typically from a nib.
 }
 

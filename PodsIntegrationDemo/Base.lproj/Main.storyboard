@@ -29,6 +29,9 @@
                             <constraint firstAttribute="centerX" secondItem="9dg-aP-Xmy" secondAttribute="centerX" id="mx4-MA-cCp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="demoLabel" destination="9dg-aP-Xmy" id="Bka-dj-qUH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
